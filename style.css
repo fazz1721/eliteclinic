@@ -378,4 +378,177 @@
   height: 500px;     /* Adjust height for the video */
   border-radius: 15px;  /* Optional: rounded corners */
 }
+/* General Adjustments for Mobile */
+@media screen and (max-width: 768px) {
+
+  /* Header */
+  header {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar ul li a {
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 350px;
+    padding-left: 5%;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content h2 {
+    font-size: 38px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+  /* Features Section */
+  .features {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 5%;
+  }
+
+  .feature-card {
+    width: 100%;
+  }
+
+  /* Services Section */
+  .services-section {
+    padding: 40px 5%;
+  }
+
+  .services-header h2 {
+    font-size: 28px;
+  }
+
+  .services-header p {
+    font-size: 14px;
+  }
+
+  .appointment-btn {
+    padding: 8px 16px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .service-box {
+    padding: 25px;
+  }
+
+  /* Infrastructure Gallery */
+  .gallery-section h2 {
+    font-size: 28px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .clinic-footer {
+    padding: 40px 5%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-about h2 {
+    font-size: 20px;
+  }
+
+  .footer-links h3 {
+    font-size: 14px;
+  }
+
+  .footer-links ul li a {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .contact-info {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  /* Video Section */
+  .video-container iframe {
+    height: 300px;
+  }
+
+  /* Additional Styling for Mobile */
+  .contact-info p,
+  .service-box p,
+  .feature-card p {
+    font-size: 14px;
+  }
+
+  .video-section h2 {
+    font-size: 24px;
+  }
+
+  .service-box h3 {
+    font-size: 16px;
+  }
+
+  .feature-card h3 {
+    font-size: 18px;
+  }
+
+  .footer-about p {
+    font-size: 14px;
+  }
+
+  /* Adjust Button Sizes */
+  .appointment-btn, .btn {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .social-icons a img {
+    width: 20px;
+    margin-right: 8px;
+  }
+}
 
